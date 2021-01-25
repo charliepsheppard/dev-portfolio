@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href='./style.css'/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playfair+Display&family=Open+Sans&family=Quicksand&display=swap"
+      rel="stylesheet">
+  <title>Charlie Sheppar| Portfolio</title>
+</head>
+<body>
+  <div class="body-container">
+    <div class="header">
+      <nav class="nav">
+        <a href="#home" class="nav-select">
+          <li class="nav-link">Home</li>
+        </a>
+        <a href="#about" class="nav-select">
+          <li class='nav-link'>About</li>
+        </a>
+        <a href="#work" class="nav-select">
+          <li class='nav-link'>Work</li>
+        </a>
+        <a href="#resume" class="nav-select">
+          <li class='nav-link'>Resume</li>
+        </a>
+        <a href="#contact" class="nav-select">
+          <li class='nav-link'>Contact</li>
+        </a>
+        <a href="https://github.com/charliepsheppard" target="_blank" class="nav-select"><i class="fab fa-github fa-1x nav-link"></i></a>
+        <a href="https://www.linkedin.com/in/charlespsheppard/" target="_blank" class="nav-select"><i class="fab fa-linkedin-in fa-1x nav-link"></i></a>
+      </nav>
+    </div>
+    <div class="heading-container">
+      <h1 class="logo" id="home">CHARLIE SHEPPARD</h1>
+      <h2 class="sub-logo">Software Engineer</h2>
+    </div>
+    <div class="head-shot">
+      <img src="./photos/portfolio_photo.png" alt="profile photo" class="profile-photo">
+    </div>
+    <div class="about-container">
+      <h2 class="about-heading section-heading" id="about">About</h2>
+      <p class="about-content">
+        So, who is Charlie? Great question.
+        <br />
+        <br />
+        I grew up in Vermont and eventually made my way to New York City where I started a career in sales. I made countless cold calls and eventually realized I wanted something different.
+        <br />
+        <br />
+        What started as an interesting activity to do after work became a passion. I was intent on teaching myself how to code, but soon understood that 
+        if this passion were to become a reality I would need professional guidance. I decided to take the leap. 
+        <br /> 
+        <br />
+        From December to March of 2019 I attended General Assembly's Web Development Immersive program, learning the fundamentals of full stack development. 
+        <br />
+        <br />
+        For the past year and a half I have had the ability to expand my knowledge and talents in software engineering, working on projects and new technologies to keep up with 
+        the fast moving times, all while maintaining a full time position in sales.  
+        I am truly excited for what lies in the future and am more than ready to fulfill my dream of becoming a software engineer. 
+      </p>
+    </div>
+    <div class="work-container">
+      <h2 class="work-heading section-heading" id="work">Projects</h2>
+      <div class="work-content">
+        <div class="work-card">
+          <a href="https://wizardly-cori-1d0e43.netlify.app/" target="_blank" class='work-link'>
+            <img src="./photos/BubbleCatch.png" alt="" class="work-image" />
+            <span class="work-label">Bubble Catch</span><br />
+            <p class="work-description"><span class='work-label'>Description: </span><span class="work-description--content">Project focused on utilizing vanilla JS. This also features the use of canvas and collision detection. Catch bubbles and level up!</span>
+              <br />
+              <span class='work-label'>Stack: </span><span class="work-description--content">HTML, CSS, Vanilla JS</span>
+            </p>
+          </a>
+        </div>
+        <div class="work-card">
+          <a href="https://trusting-tereshkova-c28aa4.netlify.app" target="_blank" class='work-link'>
+            <img src="./photos/MovieWatch.png" alt="" class="work-image" />
+            <span class="work-label">MovieWatch</span><br />
+            <p class="work-description"><span class='work-label'>Description: </span><span class="work-description--content">Independent project focused on the use of React and an outside API. Search for movies, actors or directors.</span>
+              <br />
+              <span class='work-label'>Stack: </span><span class="work-description--content">React, CSS</span>
+            </p>
+          </a>
+        </div>
+        <div class="work-card">
+          <a href="https://body-shift.herokuapp.com/" target="_blank" class='work-link'>
+            <img src="./photos/BodyShift.png" alt="" class="work-image" />
+            <span class="work-label">BodyShift</span><br />
+            <p class="work-description"><span class='work-label'>Description: </span><span class="work-description--content">Solo full-stack app with CRUD functionality
+              focusing on health and
+              wellness.</span>
+              <br />
+              <span class='work-label'>Stack: </span><span class="work-description--content">React, React-Router, Ruby on Rails, Postgres</span>
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="resume-container" id="resume">
+      <h2 class="resume-heading section-heading">Resume</h2>
+      <p class="resume-description">For the sake of scrolling, feel free to download my resume below...</p>
+      <a href="./resume/DevResume 2021.pdf" download="charlie-sheppard-resume">
+        <button class="resume-button">Resume <i class="fas fa-file-download"></i></button>
+      </a>
+    </div>
+    <div class="contact-container" id="contact">
+      <h2 class="contact-heading section-heading">Contact</h2>
+      <div class="contact-info">
+        <a href='mailto:sheppard.charlie24@gmail.com' class='icon-link'><i class="far fa-envelope fa-2x"></i></a>
+        <a href='tel:8022384089' class='icon-link'><i class="fas fa-phone fa-2x"></i></a>
+        <a href='https://github.com/charliepsheppard' target="_blank" class='icon-link'><i
+            class="fab fa-github fa-2x"></i></a>
+        <a href='https://www.linkedin.com/in/charlespsheppard/' target="_blank" class='icon-link'><i
+            class="fab fa-linkedin-in fa-2x"></i></a>
+      </div>
+    </div>
+    <div class="footer-container">
+      <footer>
+        <p class="footer-content">&copy; Charlie Sheppard | 2021</p>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

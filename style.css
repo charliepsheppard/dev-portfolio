@@ -1,0 +1,256 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #FFB703;
+    color: #EEF0EF;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVIGATION/HEADING */
+
+.header {
+  margin-bottom: 2em;
+  position: absolute;
+}
+
+.nav {
+  display: flex;
+  background: #FB8500;
+  top: 0;
+  padding: 10px 0 15px 0;
+  margin-left: 0;
+  margin-bottom: 2em;
+  height: 10%;
+  width: 100%;
+  position: fixed;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link {
+  display: inline;
+  color: #023047;
+  padding: 15px;
+  margin: 8px 12px 0 12px;
+  border: 2px solid #FB8500;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-select {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #FFB703;
+}
+
+/* HEADING/TITLE */
+
+.heading-container {
+  margin-bottom: 3rem;
+}
+
+.logo {
+  margin-top: 20vh;
+  text-align: center;
+  font-size: 4.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: .4rem;
+  color: #023047;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.sub-logo {
+  text-align: center;
+  font-size: 2.7rem;
+  margin-top: 0;
+  color: #219EBC;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.head-shot {
+  text-align: center;
+}
+
+.profile-photo {
+  height: 23rem;
+  border-radius: 2%;
+}
+
+/* SECTION HEADINGS */
+
+.section-heading {
+  color: #219EBC;
+  margin: 4rem 0 3rem 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about-heading, .work-heading, .resume-heading {
+  font-size: 4rem;
+}
+
+/* ABOUT */
+
+.about-content {
+  margin: 2rem 0 2rem 1rem;
+  line-height: 1.4rem;
+  font-size: 1.1rem;
+  max-width: 100%;
+  color: #023047;
+  font-family: 'Playfair Display', serif;
+}
+
+/* WORK */
+
+.work-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.work-description--content {
+  font-size: 0.85rem;
+}
+
+.work-card {
+  margin: 2em;
+  max-width: 500px;
+  background-color: #8ECAE6;
+  border-radius: 2%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.work-image {
+  width: 100%;
+  border-radius: 2% 2% 0 0;
+}
+
+.work-card:hover {
+  box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 7px 21px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.work-label {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.work-link {
+  text-decoration: none;
+  color: #023047;
+}
+
+/* RESUME */
+
+.resume-button {
+  width: 12rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  margin: 1.5rem 0 0 1rem;
+  cursor: pointer;
+  border-radius: 7%;
+  background-color: #FB8500;
+  color: #023047;
+  border-style: none;
+}
+
+.resume-description {
+  color: #023047;
+  font-family: 'Playfair Display', serif;
+}
+
+.resume-button:hover {
+  opacity: 0.8;
+}
+
+.resume-container > p {
+  margin-left: 1rem;
+}
+
+/* CONTACT */
+
+.contact-container {
+  text-align: center;
+  margin: 2rem auto;
+  width: 40%;
+}
+
+.contact-heading {
+  font-size: 3.5rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: #023047;
+}
+
+/* FOOTER */
+
+.footer-container {
+  background-color: #FB8500;
+  padding: 0.6rem 0;
+  color: #023047;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.footer-content {
+  margin-left: 0.8rem;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen 
+  and (max-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .header {
+      display: none;
+    }
+
+    .logo {
+      margin-top: 8vh;
+    }
+
+    .profile-photo {
+      height: 15rem;
+      border-radius: 2%;
+      text-align: center;
+    }
+
+    .section-heading {
+      text-align: center;
+      margin: 3rem 0;
+    }
+
+    .about-content {
+      margin: 2rem auto;
+      max-width: 80%;
+      padding: 2rem;
+      background: #FFCB47;
+    }
+
+    .resume-container {
+      text-align: center;
+    }
+
+    .contact-container {
+      width: 100%;
+    }
+}
