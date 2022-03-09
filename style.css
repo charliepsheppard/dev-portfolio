@@ -156,6 +156,10 @@ html, body {
   color: #023047;
 }
 
+.work-info-container {
+  padding: 0 1em;
+}
+
 /* RESUME */
 
 .resume-button {
