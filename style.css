@@ -160,33 +160,6 @@ html, body {
   padding: 0 1em;
 }
 
-/* RESUME */
-
-.resume-button {
-  width: 12rem;
-  height: 3rem;
-  font-size: 1.2rem;
-  margin: 1.5rem 0 0 1rem;
-  cursor: pointer;
-  border-radius: 7%;
-  background-color: #FB8500;
-  color: #023047;
-  border-style: none;
-}
-
-.resume-description {
-  color: #023047;
-  font-family: 'Playfair Display', serif;
-}
-
-.resume-button:hover {
-  opacity: 0.8;
-}
-
-.resume-container > p {
-  margin-left: 1rem;
-}
-
 /* CONTACT */
 
 .contact-container {
